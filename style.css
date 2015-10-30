@@ -1,9 +1,26 @@
 body {
-  font-family: 'helvetica neue', arial, sans-serif;
-  font-weight: 300;
-  background: url(linedpaper.png) repeat;
+	font-family: 'helvetica nueue', arial, sans-serif;
+	font-weight: 300;
+	background: url(linepaper.jpg) repeat;
 }
 #wrapper {
-  width: 960px;
-  margin: 20px auto;
+	width: 960px
+	margin: 20px auto;
+}
+/* Making the H1 red */
+h1, h2, h3 {
+	color: orange;
+}
+#summary {
+	color: red;
+}
+.unicorn {
+	color: purple;
+}
+body {
+	background-color: green;
+}
+#marius {
+	width: 250px;
+	border: 20px solid red;
 }
