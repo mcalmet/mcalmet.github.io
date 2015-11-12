@@ -1,26 +1,51 @@
 body {
 	font-family: 'helvetica nueue', arial, sans-serif;
 	font-weight: 300;
-	background: url(linepaper.jpg) repeat;
+	background: url(Background.jpg) repeat;
+}
+.navbar-inverse .navbar-brand {
+	font-family: times;
+	font-style: 36px;
+	color: #ff3061;
+	padding-top: 20px;
 }
 #wrapper {
 	width: 960px
 	margin: 20px auto;
+	color: white;
 }
 /* Making the H1 red */
 h1, h2, h3 {
-	color: orange;
+	color: black;
+}
+.rating {
+  font-size: 1.3em;
+  text-transform: none;
+  border: 2px solid #ccc;
+  padding: 3px;
+  vertical-align: middle;
 }
 #summary {
-	color: red;
+	color: white;
 }
 .unicorn {
-	color: purple;
+	color: white;
+	font-style: italic;
+}
+.title {
+	color: white;
+	font-style: bold;
+}
+.bullet {
+	color: orange;
+}
+.text {
+	color: black;
 }
 body {
-	background-color: green;
+	background: Background.jpg;
 }
 #marius {
-	width: 250px;
-	border: 20px solid red;
+	width: 200px;
+	border: 1px solid white;
 }
